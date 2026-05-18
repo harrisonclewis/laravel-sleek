@@ -115,21 +115,10 @@ Both syntaxes work:
 <Avatar src="/user.jpg"/>
 ```
 
-## How It Works
-
-Laravel Sleek registers a Blade precompiler that runs before standard Blade compilation. It:
-
-1. Identifies PascalCase HTML tags
-2. Converts them to kebab-case with `x-` prefix
-3. Preserves all attributes and content
-4. Ignores standard HTML tags
-
-The transformation happens at compile time, so there's no runtime performance impact.
-
 ## Requirements
 
 - PHP 8.1 or higher
-- Laravel 10.0 or 11.0
+- Laravel >=10.0
 
 ## License
 
@@ -137,8 +126,8 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ## Credits
 
-- [Harrison](https://github.com/harlew-com)
+- [Harrison Lewis](https://github.com/harrisonclewis)
 
 ## Support
 
-For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/harlew-com/laravel-sleek).
+For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/harrisonclewis/laravel-sleek).
