@@ -1,6 +1,6 @@
 {
-    "name": "harlew-com/laravel-sleek",
-    "description": "React-style component syntax for Laravel Blade",
+    "name": "harrisonclewis/laravel-sleek",
+    "description": "JSX-style component syntax for Laravel Blade",
     "keywords": [
         "laravel",
         "blade",
