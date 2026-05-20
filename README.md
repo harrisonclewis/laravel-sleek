@@ -4,8 +4,9 @@
 
 # Introduction
 
-JSX-style component syntax for Laravel Blade.
+Cleaner component syntax for Laravel Blade.
 
+**With Laravel Sleek**
 ```blade
 <Layouts.App>
     <Form method="POST" action="{{ route('login') }}">
@@ -19,6 +20,20 @@ JSX-style component syntax for Laravel Blade.
 </Layouts.App>
 ```
 
+**Without Laravel Sleek**
+```blade
+<x-layouts.app>
+    <x-form method="POST" action="{{ route('login') }}">
+        <x-form.group>
+            <x-form.label>Email</x-form.label>
+            <x-form.input type="email" name="email" />
+        </x-form.group>
+
+        <x-button type="submit">Sign in</x-button>
+    </x-form>
+</x-layouts.app>
+```
+
 ## Installation
 
 ```bash
@@ -30,13 +45,11 @@ composer require harrisonclewis/laravel-sleek
 PascalCase tags are transformed to Laravel's `x-component` syntax at compile time.
 
 ```blade
-<Button />               →  <x-button />
-<UserProfile />          →  <x-user-profile />
-<Form.Input />           →  <x-form.input />
-<Card.Body class="p-4">  →  <x-card.body class="p-4">
+<x-button />                  →  <Button />
+<x-user-profile />            →  <UserProfile />
+<x-form.input />              →  <Form.Input />
+<x-card.body class="p-4">    →  <Card.Body class="p-4">
 ```
-
-Standard HTML tags (`div`, `span`, `p`, etc.) are never transformed.
 
 ## Configuration
 

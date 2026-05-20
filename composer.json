@@ -1,6 +1,6 @@
 {
     "name": "harrisonclewis/laravel-sleek",
-    "description": "JSX-style component syntax for Laravel Blade",
+    "description": "Cleaner component syntax for Laravel Blade",
     "keywords": [
         "laravel",
         "blade",
