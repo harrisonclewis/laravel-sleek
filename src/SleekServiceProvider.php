@@ -1,6 +1,6 @@
 <?php
 
-namespace HarlewCom\LaravelSleek;
+namespace Harlew\Sleek;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;

@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use HarlewCom\LaravelSleek\SleekServiceProvider;
+use Harlew\Sleek\SleekServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

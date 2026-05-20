@@ -1,6 +1,6 @@
 <?php
 
-use HarlewCom\LaravelSleek\SleekComponentCompiler;
+use Harlew\Sleek\SleekComponentCompiler;
 
 // Self-closing tags
 

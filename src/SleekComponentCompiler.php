@@ -1,6 +1,6 @@
 <?php
 
-namespace HarlewCom\LaravelSleek;
+namespace Harlew\Sleek;
 
 use Illuminate\Support\Str;
 

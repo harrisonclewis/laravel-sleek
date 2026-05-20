@@ -3,7 +3,7 @@
 use Illuminate\View\Compilers\BladeCompiler;
 
 it('registers the service provider', function () {
-    expect(app()->providerIsLoaded(\HarlewCom\LaravelSleek\SleekServiceProvider::class))->toBeTrue();
+    expect(app()->providerIsLoaded(\Harlew\Sleek\SleekServiceProvider::class))->toBeTrue();
 });
 
 it('merges the default config', function () {
