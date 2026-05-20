@@ -9,7 +9,7 @@
     "view",
     "compiler"
   ],
-  "homepage": "https://github.com/yourvendor/laravel-prism",
+  "homepage": "https://github.com/harrisonclewis/laravel-sleek",
   "license": "MIT",
   "authors": [
     {
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "HarlewCom\\LaravelSleek\\": "src/"
+      "Harlew\\Sleek\\": "src/"
     }
   },
   "autoload-dev": {
@@ -51,7 +51,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "HarlewCom\\LaravelSleek\\SleekServiceProvider"
+        "Harlew\\Sleek\\SleekServiceProvider"
       ]
     }
   },
