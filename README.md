@@ -48,7 +48,7 @@ PascalCase tags are transformed to Laravel's `x-component` syntax at compile tim
 <x-button />                  →  <Button />
 <x-user-profile />            →  <UserProfile />
 <x-form.input />              →  <Form.Input />
-<x-card.body class="p-4">    →  <Card.Body class="p-4">
+<x-card.body class="p-4">     →  <Card.Body class="p-4">
 ```
 
 ## Configuration
